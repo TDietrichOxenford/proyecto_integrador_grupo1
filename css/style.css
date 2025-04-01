@@ -13,10 +13,13 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    border-radius: 60px;
+    border: white solid 1.5px;
 }
 
 .logo{
-    width: 10%;
+    width: 8%;
+    margin-left: 10px;
 }
 
 .logo img{
@@ -25,6 +28,7 @@ header{
 
 .formheader{
     width: 30%;
+    margin-left: 30px;
 }
 .formheader input{
     width: 100%;
@@ -33,6 +37,7 @@ header{
 
 .menudenav{
     width: 40%;
+    margin-right: 80px;
 }
 
 .listanav{
@@ -49,4 +54,56 @@ header{
     font-size: 20px;
 }
 
-  
+.htres{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.contenedorgrande{
+    width: 100%;
+    background-color: rgba(236, 228, 236, 0.504);
+}
+
+.seccionuno{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textseccion{
+    font-size: 25px;
+}
+
+
+.peliculas{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.imgpelis{
+    width: 70%;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 60px;
+    border: white solid 1.5px;
+}
+
+.footer p{
+    font-size: 19.5px;
+}
