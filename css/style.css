@@ -58,13 +58,22 @@ header{
     text-align: center;
     margin-bottom: 0px;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 35px;
+    text-shadow: 
+      -2px -2px 0 white, 
+      2px -2px 0 white, 
+      -2px 2px 0 white, 
+      2px 2px 0 white;
 }
 
 .contenedorgrande{
     width: 100%;
     background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px;
 }
+
 
 .seccionuno{
     margin-top: 30px;
@@ -84,12 +93,16 @@ header{
 
 .peliculas{
     width: 20%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .imgpelis{
     width: 70%;
     height: 300px;
+}
+
+.contultimo{
+    margin-bottom: 40px;
 }
 
 .footer {
