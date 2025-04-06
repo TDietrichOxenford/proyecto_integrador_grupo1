@@ -45,13 +45,18 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .listanav a{
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 50px;
+    border: white solid 1.5px; 
+    padding: 10px;
 }
 
 .htres{
@@ -64,6 +69,8 @@ header{
       2px -2px 0 white, 
       -2px 2px 0 white, 
       2px 2px 0 white;
+      font-family: "Oswald", sans-serif;
+      font-weight: 700;
 }
 
 .contenedorgrande{
@@ -88,6 +95,10 @@ header{
 
 .textseccion{
     font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 
@@ -119,6 +130,7 @@ header{
 
 .footer p{
     font-size: 19.5px;
+    font-family: "Montserrat", sans-serif;
 }
 
 
