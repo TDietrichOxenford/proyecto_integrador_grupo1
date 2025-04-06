@@ -40,13 +40,16 @@ header{
     margin-right: 80px;
 }
 
+p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
 .listanav{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
 }
 
 .listanav a{
@@ -57,6 +60,8 @@ header{
     border-radius: 50px;
     border: white solid 1.5px; 
     padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .htres{
@@ -97,8 +102,6 @@ header{
     font-size: 25px;
     color: black;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
 }
 
 
@@ -130,7 +133,6 @@ header{
 
 .footer p{
     font-size: 19.5px;
-    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -147,6 +149,7 @@ header{
     border-radius: 60px;
     border: white solid 1.5px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .fotouno{
@@ -166,6 +169,8 @@ header{
 
 .cajados h3{
     font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .cajados p{
@@ -183,7 +188,7 @@ header{
 
 .cajatres{
     width: 15%;
-    margin-top: 110px;
+    margin-top: 185px;
 }
 
 .cajacuatro p{
