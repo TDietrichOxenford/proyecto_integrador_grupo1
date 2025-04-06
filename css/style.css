@@ -120,3 +120,66 @@ header{
 .footer p{
     font-size: 19.5px;
 }
+
+
+
+
+.peliculasmovie{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px;
+}
+
+.fotouno{
+    width: 80%;
+    height: 350px;
+    margin-left: 40px;
+}
+
+.partesmovie{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cajauno{
+    width: 20%;
+}
+
+.cajados h3{
+    font-size: 36px;
+}
+
+.cajados p{
+    font-size: 25px;
+}
+
+.cajados{
+    margin: 0px;
+    width: 15%;
+}
+
+.cajatres p{
+    font-size: 25px;
+}
+
+.cajatres{
+    width: 15%;
+    margin-top: 110px;
+}
+
+.cajacuatro p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.cajacuatro{
+    width: 45%;
+}
