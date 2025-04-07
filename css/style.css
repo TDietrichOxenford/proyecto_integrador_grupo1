@@ -96,18 +96,22 @@ p{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    height: 450px;
 }
 
 .textseccion{
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     text-decoration: none;
+    width: 70%;
+    text-align: center;
 }
 
 
 .peliculas{
     width: 20%;
     margin-top: 10px;
+    height: 400px;
 }
 
 .imgpelis{
