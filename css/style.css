@@ -85,7 +85,10 @@ p{
     border: white solid 1.5px;
     margin-top: 20px;
 }
-
+.linkdetail{
+    color: black;
+    text-decoration: none;
+}
 
 .seccionuno{
     margin-top: 30px;
@@ -207,4 +210,87 @@ p{
 
 .cajatresseries{
     margin-top: 80px;
+}
+
+
+/*css moviegeneres y seriesgeneres*/
+.contenedorageneros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cajasgeneros{
+    background-color: rgba(236, 228, 236, 0.99);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    width: 40%;
+    text-align: center;
+}
+.linkgeneres{
+    color: black;
+    text-decoration: none;
+}
+
+/*css detail-generes*/
+.titulodrama{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 
+      -2px -2px 0 white, 
+      2px -2px 0 white, 
+      -2px 2px 0 white, 
+      2px 2px 0 white;
+      font-family: "Oswald", sans-serif;
+      font-weight: 700;
+}
+.contenedoragenerosdetail{
+    width: 100%;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cajadrama{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+    margin-left: 37px;
+}
+.peliculasdrama{
+    width: 20%;
+    margin-top: 10px;
+    height: 400px;
+}
+.imgdrama{
+    width: 70%;
+    height: 300px;
+}
+.textdrama{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    width: 70%;
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
 }
