@@ -214,6 +214,25 @@ p{
 
 
 /*css moviegeneres y seriesgeneres*/
+.cajageneros{
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulogeneros{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 
+      -2px -2px 0 white, 
+      2px -2px 0 white, 
+      -2px 2px 0 white, 
+      2px 2px 0 white;
+      font-family: "Oswald", sans-serif;
+      font-weight: 700;
+}
 .contenedorageneros{
     display: flex;
     flex-wrap: wrap;
@@ -221,12 +240,8 @@ p{
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(236, 228, 236, 0.504);
-    border-radius: 60px;
-    border: white solid 1.5px;
-    height: 400px;
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .cajasgeneros{
     background-color: rgba(236, 228, 236, 0.99);
