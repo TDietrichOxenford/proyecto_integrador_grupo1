@@ -320,6 +320,72 @@ p{
     font-weight: bold;
 }
 
+/*css login y reg*/
+
+.mainlogin{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 14.5%;
+}
+
+.mainreg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 13%;
+}
+
+.divsreg a{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.divsreg input{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.divsreg button{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divsregch{
+margin-top: 10px;
+}
+
+.divsregch label{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
 @media (max-width: 450px){
 
     header{
