@@ -143,7 +143,7 @@ p{
 }
 
 .espacio{
-    margin-right: 18px;
+    margin-right: 25px;
 }
 
 
@@ -318,4 +318,81 @@ p{
 }
 .negrita{
     font-weight: bold;
+}
+
+@media (max-width: 450px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0);
+        justify-content: center;
+        border: none;
+    }
+
+    .logo{
+        width: 100vh;
+    }
+
+    .logo img{
+        width: 15%;
+        margin-left: 110px;
+    }
+
+    .formheader{
+        display: none;
+    }
+
+    .menudenav{
+        width: 100vh;
+    }
+
+    .listanav{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        width: 30vh;
+        margin-left: 80px;
+    }
+
+    .htres{
+        margin-bottom: 0px;
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+    .contenedorgrande{
+        background-color: rgba(236, 228, 236, 0.504);
+        border-radius: 60px;
+        border: white solid 1.5px;
+    }
+
+    .seccionuno{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vh;
+    }
+
+    .peliculas{
+        width: 100vh;
+    }
+
+    .imgpelis{
+        width: 25%;
+        height: 320px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+
+    .textseccion{
+        width: 45%;
+        margin: 0px;
+    }
+
 }
