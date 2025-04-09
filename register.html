@@ -32,17 +32,25 @@
         </nav>
     </header>
 
-    <main>
-        <form action="login.html" method="GET">
-            <input type="email" name="email" placeholder="email">
-            <input type="contraseña" name="contraseña" placeholder="contraseña">
-            <label for=""></label>
-            
-            <input type="checkbox" name="terminosycondiciones" value="terminosycondiciones">
-            <label>Términos y condiciones</label>
-            <button type="submit">Enviar</button>
+    <main class="mainreg">
+        <form action="login.html" class="formreg" method="GET">
+            <div class="divsreg">
+                <input type="email" name="email" placeholder="email">
+            </div>
+            <div class="divsreg">
+                <input type="contraseña" name="contraseña" placeholder="contraseña">
+            </div>    
+            <div class="divsregch">
+                <input type="checkbox" name="terminosycondiciones" value="terminosycondiciones">
+                <label>Términos y condiciones</label>
+            </div>  
+            <div class="divsreg">
+                <button type="submit">Enviar</button>
+            </div>  
         </form>
-        <p><a href="login.html">Ya tengo una cuenta.</a></p>
+        <div class="divsreg">
+            <a href="login.html">Ya tengo una cuenta.</a>
+        </div>
     </main>
 
     <footer>
@@ -54,4 +62,4 @@
     </footer>
     
 </body>
-</html>
+</html>  
