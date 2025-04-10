@@ -67,7 +67,7 @@ p{
 .htres{
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 35px;
     text-shadow: 
       -2px -2px 0 white, 
@@ -108,6 +108,7 @@ p{
     text-decoration: none;
     width: 70%;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 
@@ -136,14 +137,15 @@ p{
     width: 100%;
     border-radius: 60px;
     border: white solid 1.5px;
+    margin-top: 10px;
 }
 
 .footer p{
     font-size: 19.5px;
 }
 
-.espacio{
-    margin-right: 25px;
+.fecha{
+    margin-top: 0px;
 }
 
 
@@ -385,6 +387,18 @@ margin-top: 10px;
     font-style: normal;
     font-size: 20px;
 }
+
+
+.contenedorresults{
+    width: 100%;
+    background-color: rgba(236, 228, 236, 0.504);
+    border-radius: 60px;
+    border: white solid 1.5px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+
 
 @media (max-width: 450px){
 
