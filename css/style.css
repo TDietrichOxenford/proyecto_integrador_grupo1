@@ -425,8 +425,8 @@ p{
     }
 
     .logo img{
-        width: 15%;
-        margin-left: 180px;
+        width: 25%;
+        margin-left: 160px;
     }
 
     .formheader{
@@ -443,7 +443,7 @@ p{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        height: 250px;
+        height: 230px;
         margin: 0px;
         padding: 0px;
     }
@@ -463,7 +463,7 @@ p{
     }
 
     .mainindex{
-        width: 50vh;
+        width: 100vw;
     }
 
     .contenedorgrande{
@@ -477,27 +477,27 @@ p{
 
     .seccionuno{
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-direction: column;
         height: 2100px;
+        width: 100%;
     }
 
     .peliculas{
         width: 100%;
         align-items: center;
         justify-content: center;
-        margin-top: 5px;
+        margin: 0px;
     }
 
     .imgpelis{
-        width: 60%;
-        height: 220px;
-        margin-bottom: 10px;
+        width: 50%;
+        height: 235px;
+        margin-left: 15px;
     }
 
     .textseccion{
         width: 60%;
-        margin: 0px;
     }
 
     /*esto ya esta tmb*/
