@@ -379,7 +379,7 @@ p{
 }
 
 .divsregch{
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 .divsregch label{
@@ -405,12 +405,14 @@ margin-top: 10px;
     body{
         width: 100vw;
     }
+
     main{
         width: 100vw;
     }
+
     header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         background-color: rgba(255, 255, 255, 0);
         justify-content: center;
@@ -424,7 +426,7 @@ margin-top: 10px;
 
     .logo img{
         width: 15%;
-        margin-left: 210px;
+        margin-left: 180px;
     }
 
     .formheader{
@@ -445,46 +447,83 @@ margin-top: 10px;
         margin: 0px;
         padding: 0px;
     }
+
     .navegacion{
         width: 100%;
         margin-top: 10px;
         margin-bottom: 0px;
     }
 
+/* hasta aca ya esta, falta lo de abajo*/
     .htres{
         margin-bottom: 0px;
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 35px;
         text-align: center;
+    }
+
+    .mainindex{
+        width: 50vh;
     }
 
     .contenedorgrande{
         background-color: rgba(236, 228, 236, 0.504);
         border-radius: 60px;
         border: white solid 1.5px;
+        width: 80%;
+        padding-left: 7%;
+        margin-left: 30px;
     }
 
     .seccionuno{
-        display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
-        width: 100vh;
+        flex-direction: column;
+        height: 2100px;
     }
 
     .peliculas{
-        width: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
     }
 
     .imgpelis{
-        width: 25%;
-        height: 320px;
-        margin-left: 70px;
-        margin-bottom: 20px;
+        width: 60%;
+        height: 220px;
+        margin-bottom: 10px;
     }
 
     .textseccion{
-        width: 45%;
+        width: 60%;
         margin: 0px;
     }
 
+    /*esto ya esta tmb*/
+    .divsreg a{
+        font-size: 13px;
+    }
+    
+    .divsreg input{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .divsreg button{
+        font-size: 13px;
+        margin-left: 55px;
+    }
+    
+    .divsregch label{
+        font-size: 13px;
+    }
+
+    .mainlogin{
+        padding-top: 55%;
+    }
+    
+    .mainreg{
+        padding-top: 50%;
+    }
 }
