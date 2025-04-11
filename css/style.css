@@ -78,25 +78,22 @@ p{
       font-weight: 700;
 }
 
-.contenedorgrande{
+.linkdetail{
+    color: black;
+    text-decoration: none;
+    width: 20%;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.seccionuno{
     width: 100%;
     background-color: rgba(236, 228, 236, 0.504);
     border-radius: 60px;
     border: white solid 1.5px;
     margin-top: 20px;
-}
-.linkdetail{
-    color: black;
-    text-decoration: none;
-}
-
-.seccionuno{
-    margin-top: 30px;
-    margin-left: 50px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 450px;
@@ -106,20 +103,19 @@ p{
     font-size: 20px;
     color: black;
     text-decoration: none;
-    width: 70%;
+    width: 85%;
     text-align: center;
     margin-bottom: 0px;
 }
 
 
 .peliculas{
-    width: 20%;
     margin-top: 10px;
     height: 400px;
 }
 
 .imgpelis{
-    width: 70%;
+    width: 85%;
     height: 300px;
 }
 
@@ -207,7 +203,7 @@ p{
 
 .cajatres{
     width: 15%;
-    margin-top: 185px;
+    margin-top: 155px;
 }
 
 .cajacuatro p{
@@ -293,14 +289,13 @@ p{
     margin-bottom: 20px;
 }
 .cajadrama{
+    margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
     justify-content: space-around;
     align-items: center;
     height: 450px;
-    margin-left: 37px;
+    margin-left: 60px;
 }
 .peliculasdrama{
     width: 20%;
