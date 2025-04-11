@@ -37,6 +37,9 @@ header{
 .formheader input{
     width: 100%;
     height: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
 }
 
 .menudenav{
@@ -124,6 +127,10 @@ p{
 
 .contultimo{
     margin-bottom: 40px;
+}
+
+footer{
+margin-top: 20px;
 }
 
 .footer {
@@ -544,7 +551,6 @@ p{
         justify-content: space-around;
         width: 100%;
         background-color: rgba(236, 228, 236, 0.504);
-        height: 190px;
     }
 
     footer{
