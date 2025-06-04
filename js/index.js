@@ -46,7 +46,7 @@ fetch(urldos)
 
     for (let i = 0; i < 5; i++) {
       moviesDosHTML += `
-        <a class="linkdetail" href="./detail-movie.html?id=${movies[i].id}">
+        <a class="linkdetail" href="./detail-serie.html?id=${movies[i].id}">
           <div class="peliculas">
             <img class="imgpelis" src="https://image.tmdb.org/t/p/w500${movies[i].poster_path}" alt="${movies[i].name}">
             <p class="textseccion">

@@ -6,7 +6,7 @@ let apiKey = "49123d0deec6cb1469f51f0da1c92172";
 
 console.log("id")
 
-fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`)
+fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`) // no se cual appi deberia poner
 
 .then(function(response){
     return response.json()
@@ -15,7 +15,7 @@ fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`)
    console.log(data)
     movie.innerHTML = `
             <div class="partesmovie cajauno">
-    <img class="fotouno" src="${data.poter_path}" alt="${data.title}">
+    <img class="fotouno" src="https://image.tmdb.org/t/p/w500${data.poster_path}" alt="${data.title}">
 </div>
 <div class="partesmovie cajados">
     <h3>${data.title}</h3>

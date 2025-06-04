@@ -15,16 +15,16 @@ fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${apiKey}`)
    console.log(data)
     serie.innerHTML = `
             <div class="partesmovie cajauno">
-            <img class="fotouno" src="${data.poster_path}" alt="${data.title}">
+            <img class="fotouno" src="https://image.tmdb.org/t/p/w500${data.poster_path}" alt="${data.name}">
         </div>
         <div class="partesmovie cajados">
-            <h3>${data.title}</h3>
+            <h3>${data.name}</h3>
             <p><span class="negrita">Calificación:</span> ${data.popularity}</p>
             <p><span class="negrita">Fecha de estreno:</span> ${data.release_date}</p>
         </div>
         <div class="partesmovie cajatres cajatresseries">
-            <p><span class="negrita">Duración:</span> ${data.runtime}</p>
-            <a href="./seriesgenres.html"><p><span class="negrita">Género:</span> </p></a>
+            <p><span class="negrita">Duración:</span> ${data.episode_run_time}</p>
+    <a href="./moviegenres.html"><p><span class="negrita">Género:</span> ${data.genres[0].name} ${data.genres[1].name} ${data.genres[2].name}</p></a>
         </div>
         <div class="partesmovie cajacuatro">
             <p><span class="negrita">SINOPSIS:</span> ${data.overview} </p>
