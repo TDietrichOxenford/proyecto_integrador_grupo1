@@ -29,7 +29,7 @@ fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${apiKey}`)
         </div>
         <div class="partesmovie cajatres cajatresseries">
             <p><span class="negrita">Duración:</span> ${data.episode_run_time}</p>
-    <a href="./moviegenres.html"><p><span class="negrita">Género:</span> ${generos}</p></a>
+    <a href="./seriesgenres.html"><p><span class="negrita">Género:</span> ${generos}</p></a>
         </div>
         <div class="partesmovie cajacuatro">
             <p><span class="negrita">SINOPSIS:</span> ${data.overview} </p>
