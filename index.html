@@ -17,12 +17,18 @@
         <div class="logo">
             <a href="./index.html"><img src="./img/logo.jpg.webp" alt="logo"></a>
         </div>
-        <div class="formheader">
-            <form class="formh" action="search-results.html" method="GET">
+            <div class="formheader">
+                <form class="formh" action="search-results.html" method="GET">
+                    <input type="text" placeholder="Buscar" name="buscar" id="buscar">
+                </form>
+            </div>
+            <form class="fromnuevo" action="search-results.html" method="GET">
+                <label>Peliculas</label>
                 <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Peliculas">
+                <label>Series</label>
                 <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Series">    
+                <button class="botton">Buscar</button>
             </form>
-        </div>
         <nav class="menudenav">
             <ul class="listanav">
                 <li><a class="navegacion" href="./login.html">Login</a></li>

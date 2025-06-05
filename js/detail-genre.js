@@ -1,3 +1,6 @@
+let queryString = location.search;
+let queryserie = new URLSearchParams(queryString)
+let id = queryserie.get("id")
 let generospeli = document.querySelector(".cajadrama")
 let apiKey = "49123d0deec6cb1469f51f0da1c92172";
 let detallegeneros = ''
@@ -5,7 +8,7 @@ let detallegeneros = ''
 console.log("id")
 
 
-fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=es-ES&with_genres=35`)
+fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
 
 .then(function(response){
     return response.json()
@@ -30,6 +33,3 @@ fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=e
 .catch(function(error) {
     console.error("Ocurrió un error:", error.message);
   });
-
-
-  

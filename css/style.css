@@ -26,8 +26,30 @@ header{
     width: 100%;
 }
 
-.formheader{
+.fromnuevo{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    width: 20%;
+    margin-left: 30px;
+    
+}
+
+.botton{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
     width: 30%;
+    height: 30px;
+    margin-left: 20px;
+    background-color: white;
+    border: black solid 1px;
+}
+    
+
+
+.formheader{
+    width: 20%;
     margin-left: 30px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -43,7 +65,7 @@ header{
 }
 
 .menudenav{
-    width: 40%;
+    width: 35%;
     margin-right: 80px;
 }
 
