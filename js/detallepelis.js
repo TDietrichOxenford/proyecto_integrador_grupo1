@@ -7,7 +7,7 @@ let generos = ""
 
 console.log("id")
 
-fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`) // no se cual appi deberia poner
+fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`) 
 
 .then(function(response){
     return response.json()

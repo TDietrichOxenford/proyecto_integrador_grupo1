@@ -20,8 +20,10 @@ fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
     for (let i = 0; i < 5; i++) {
       detallegeneros += `
                 <div class="peliculasdrama">
+                    <a class="linkdetailgeneros" href="./detail-movie.html?id=${genero[i].id}">
                     <img class="imgdrama" src="https://image.tmdb.org/t/p/w500${genero[i].poster_path}">
                     <p class="textdrama"> <span class="negrita">${genero[i].original_title}</span> ${genero[i].release_date}</p>
+                     </a>
                 </div>
             
         `;
@@ -33,3 +35,8 @@ fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
 .catch(function(error) {
     console.error("Ocurrió un error:", error.message);
   });
+
+
+//prueba de codigo
+
+

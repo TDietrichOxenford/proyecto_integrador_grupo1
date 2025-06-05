@@ -115,6 +115,11 @@ p{
     margin-top: 10px;
 }
 
+.linkdetailgeneros{
+    text-decoration: none;
+    color: black;
+}
+
 .seccionuno{
     width: 100%;
     background-color: rgba(236, 228, 236, 0.504);
