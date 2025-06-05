@@ -11,7 +11,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${apiKey}`)
     for(let i = 0 ; i < data.genres.length; i++){
 listaDeGeneros += `
             <div class="cajasgeneros">
-                <a class="linkgeneres" href="./detail-genres.html">
+                <a class="linkgeneres" href="./detail-genre.html">
                     <h3>${data.genres[i].name}</h3>
                 </a>
             </div>
@@ -37,7 +37,7 @@ fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=${apiKey}`)
     for(let i = 0 ; i < data.genres.length; i++){
 listaDeGenerosserie += `
             <div class="cajasgeneros">
-                <a class="linkgeneres" href="./detail-genres.html">
+                <a class="linkgeneres" href="./detail-genre.html">
                     <h3>${data.genres[i].name}</h3>
                 </a>
             </div>
