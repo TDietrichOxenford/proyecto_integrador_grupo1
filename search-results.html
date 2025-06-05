@@ -24,9 +24,9 @@
             </div>
             <form class="fromnuevo" action="search-results.html" method="GET">
                 <label>Peliculas</label>
-                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Peliculas">
+                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="movie">
                 <label>Series</label>
-                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Series">    
+                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="tv">    
                 <button class="botton">Buscar</button>
             </form>
         <nav class="menudenav">
@@ -47,39 +47,8 @@
 <main>
 
     <h3 class="htres">Resultados de busqueda: </h3>
-    <div class="seccionuno">
-        <a class="linkdetail" href="./detail-movie.html">
-            <div class="peliculas primerapela">
-                <img class="imgpelis" src="./img/mammamia.jpg" alt="tapa mamma mia">
-                <p class="textseccion"> <span class="negrita">Mamma Mia</span> 13/08/2008</p>
-            </div>
-        </a>
-        <a class="linkdetail" href="./detail-movie.html">
-            <div class="peliculas">
-                <img class="imgpelis" src="./img/elrobodelsiglo.jpg" alt="">
-                <p class="textseccion"> <span class="negrita espacio">El Robo del Siglo</span></p>
-                <p class="textseccion fecha"> 16/01/2020</p>
-            </div>
-        </a>
-        <a class="linkdetail" href="./detail-movie.html">
-            <div class="peliculas">
-                <img class="imgpelis" src="./img/intensamente.jpeg" alt="">
-                <p class="textseccion"> <span class="negrita">Intensamente 2</span> 13/06/2024</p>
-            </div>
-        </a>
-        <a class="linkdetail" href="./detail-movie.html">
-            <div class="peliculas">
-                <img class="imgpelis" src="./img/rapidosyfuriosos.jpg" alt="">
-                <p class="textseccion"> <span class="negrita">Rapidos y Furiosos</span> 19/05/2023</p>
-            </div>
-        </a>
-        <a class="linkdetail" href="./detail-movie.html">
-            <div class="peliculas">
-                <img class="imgpelis" src="./img/titanicmovie.webp" alt="">
-                <p class="textseccion"> <span class="negrita">Titanic</span></p>
-                <p class="textseccion fecha">05/04/1998</p>
-            </div>
-        </a>
+    <div class="seccionuno results">
+        
     </div>
 </main>
 
@@ -90,6 +59,6 @@
             <div><p>Alexia Caputo</p></div>
         </div>
     </footer>
-    
+    <script src="./js/resultadosmovie.js"></script>
 </body>
 </html>
