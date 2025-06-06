@@ -139,7 +139,6 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 450px;
 }
 
 .secciondos{
@@ -181,6 +180,17 @@ p{
 .peliculas{
     margin-top: 10px;
     height: 400px;
+}
+.nuevo{
+    width: 100%;
+}
+.nuevo2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.mainsearch{
+    height: unset;
 }
 
 .imgpelis{
