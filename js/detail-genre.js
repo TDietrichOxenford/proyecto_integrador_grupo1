@@ -8,7 +8,7 @@ let detallegeneros = ''
 console.log("id")
 
 
-fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
+fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&language=es-ES&with_genres=${id}`)
 
 .then(function(response){
     return response.json()
@@ -29,14 +29,11 @@ fetch(` https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}`)
         `;
     }
  
-    
     generospeli.innerHTML = detallegeneros;
 })
 .catch(function(error) {
     console.error("Ocurrió un error:", error.message);
   });
 
-
-//prueba de codigo
 
 

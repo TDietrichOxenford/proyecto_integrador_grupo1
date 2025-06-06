@@ -19,16 +19,15 @@
         </div>
             <div class="formheader">
                 <form class="formh" action="search-results.html" method="GET">
-                    <input type="text" placeholder="Buscar" name="buscar" id="buscar">
+                <input type="text" placeholder="Buscar" name="buscar" id="buscar">
+                <label>Peliculas</label>
+                <input type="radio" placeholder="Buscar" name="seleccion" id="movie" value="movie">
+                <label>Series</label>
+                <input type="radio" placeholder="Buscar" name="seleccion" id="tv" value="tv">    
+                <button class="botton">Buscar</button>
                 </form>
             </div>
-            <form class="fromnuevo" action="search-results.html" method="GET">
-                <label>Peliculas</label>
-                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Peliculas">
-                <label>Series</label>
-                <input type="radio" placeholder="Buscar" name="buscar" id="buscar" value="Series">    
-                <button class="botton">Buscar</button>
-            </form>
+    
         <nav class="menudenav">
             <ul class="listanav">
                 <li><a class="navegacion" href="./login.html">Login</a></li>
@@ -59,6 +58,6 @@
             <div><p>Alexia Caputo</p></div>
         </div>
     </footer>
-    <script src="./js/generos.js"></script>
+    <script src="./js/generos-tv.js"></script>
 </body>
 </html>

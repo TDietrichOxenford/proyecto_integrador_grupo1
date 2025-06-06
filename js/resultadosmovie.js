@@ -1,12 +1,18 @@
 let queryString = location.search;
 let queryserie = new URLSearchParams(queryString)
-let id = queryserie.get("buscar")
+let buscar = queryserie.get("buscar")
+let seleccion = queryserie.get("seleccion")
 let apiKey = "49123d0deec6cb1469f51f0da1c92172";
 let info = document.querySelector(".seccionuno"); 
 let resultsHTML = ""
 
-let url = `https://api.themoviedb.org/3/${id}/popular?api_key=${apiKey}&language=es-ES&page=1`;
+let url = `https://api.themoviedb.org/3/movie/popular?${buscar}api_key=${apiKey}&language=es-ES&page=1`;
+let infoserie = document.querySelector(".seccionuno"); 
+let resultsserieHTML = ""
+let urldos = `https://api.themoviedb.org/3/tv/popular?${buscar}api_key=${apiKey}`;
 
+
+if(seleccion == "movie"){
 fetch(url)
   .then(function(response) {
     return response.json();
@@ -26,19 +32,16 @@ console.log(movies)
         </a>
        
       `;
-    }
-
-    info.innerHTML = resultsHTML;
+  }
+      info.innerHTML = resultsHTML;
+          
   })
   .catch(function(error) {
     console.error("Ocurrió un error:", error.message);
   });
+} 
 
-
-let infoserie = document.querySelector(".seccionuno"); 
-let resultsserieHTML = ""
-let urldos = `https://api.themoviedb.org/3/${id}/popular?api_key=${apiKey}`;
-
+else if(seleccion == "tv"){
 fetch(urldos)
   .then(function(response) {
     return response.json();
@@ -52,7 +55,7 @@ console.log(serie)
           <div class="peliculas">
             <img class="imgpelis" src="https://image.tmdb.org/t/p/w500${serie[i].poster_path}" alt="${serie[i].name}">
             <p class="textseccion">
-              <span class="negrita">${serie[i].original_name}</span> (${serie[i].first_air_date})
+              <span class="negrita">${serie[i].name}</span> (${serie[i].first_air_date})
             </p>
           </div>
         </a>
@@ -64,4 +67,14 @@ console.log(serie)
   .catch(function(error) {
     console.error("Ocurrió un error:", error.message);
 })
+} else{
+  
+}
+
+
+
+
+
+
+
 
